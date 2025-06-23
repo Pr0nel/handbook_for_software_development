@@ -64,10 +64,11 @@ Paradigmas_de_Programación -->|Influyen en el Diseño de| Algoritmos
 Estructuras_de_Datos -->|Modeladas según un| Paradigmas_de_Programación
 Estructuras_de_Datos -->|Optimizan y Habilitan| Algoritmos
 ]
+```
 
-[
+```mermaid[
 graph TD
-    %% Diagrama enfocado en la relación entre Persistencia de Datos, Arquitectura de Computadoras y Sistemas Operativos
+%% Diagrama enfocado en la relación entre Persistencia de Datos, Arquitectura de Computadoras y Sistemas Operativos
 
     subgraph Persistencia_de_Datos
         PD1[Bases de Datos Relacionales - SQL]
@@ -100,7 +101,9 @@ graph TD
 
     Arquitectura_de_Computadoras -->|Almacena Datos de| Persistencia_de_Datos
     Arquitectura_de_Computadoras -->|Es Controlada por| Sistemas_Operativos
+
 ]
+
 ```
 
 <!-- end list -->
@@ -108,3 +111,7 @@ graph TD
 ## Licencia
 
 Este contenido (incluyendo los diagramas) está bajo la licencia [Creative Commons Atribución-NoComercial 4.0 Internacional](https://creativecommons.org/licenses/by-nc/4.0/).
+
+```
+
+```
