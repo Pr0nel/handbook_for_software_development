@@ -1,3 +1,4 @@
+```mermaid
 graph TD
 
 subgraph Paradigmas_de_Programación
@@ -62,6 +63,7 @@ Paradigmas_de_Programación -->|Influyen en el Diseño de| Algoritmos
 
 Estructuras_de_Datos -->|Modeladas según un| Paradigmas_de_Programación
 Estructuras_de_Datos -->|Optimizan y Habilitan| Algoritmos
+```
 
 <!-- end list -->
 
