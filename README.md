@@ -1,4 +1,4 @@
-```mermaid
+```mermaid[
 graph TD
 
 subgraph Paradigmas_de_Programación
@@ -63,6 +63,44 @@ Paradigmas_de_Programación -->|Influyen en el Diseño de| Algoritmos
 
 Estructuras_de_Datos -->|Modeladas según un| Paradigmas_de_Programación
 Estructuras_de_Datos -->|Optimizan y Habilitan| Algoritmos
+]
+
+[
+graph TD
+    %% Diagrama enfocado en la relación entre Persistencia de Datos, Arquitectura de Computadoras y Sistemas Operativos
+
+    subgraph Persistencia_de_Datos
+        PD1[Bases de Datos Relacionales - SQL]
+        PD2[Bases de Datos NoSQL]
+        PD3[Archivos Planos / Binarios]
+        PD4[Sistemas de Almacenamiento en la Nube]
+    end
+
+    subgraph Arquitectura_de_Computadoras
+        AC1[CPU / Procesador]
+        AC2[Memoria: RAM, Caché]
+        AC3[Almacenamiento: Discos]
+        AC4[Periféricos / E/S]
+    end
+
+    subgraph Sistemas_Operativos
+        SO1[Gestión de Procesos]
+        SO2[Gestión de Memoria]
+        SO3[Gestión de Archivos]
+        SO4[Programación de Tareas]
+    end
+
+    %% --- Conexiones entre estos tres conceptos ---
+
+    Sistemas_Operativos -->|Gestiona Directamente| Arquitectura_de_Computadoras
+    Sistemas_Operativos -->|Proporciona Servicios de Archivo y Disco para| Persistencia_de_Datos
+
+    Persistencia_de_Datos -->|Utiliza Recursos de| Arquitectura_de_Computadoras
+    Persistencia_de_Datos -->|Se Implementa sobre| Sistemas_Operativos
+
+    Arquitectura_de_Computadoras -->|Almacena Datos de| Persistencia_de_Datos
+    Arquitectura_de_Computadoras -->|Es Controlada por| Sistemas_Operativos
+]
 ```
 
 <!-- end list -->
