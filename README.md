@@ -1,6 +1,6 @@
 # Handbook for Software Development
 
-Este **Handbook for Software Development** es una guía visual concisa y práctica diseñada para estudiantes, desarrolladores y entusiastas de la computación. Este repositorio ofrece una colección de diagramas claros y estructurados, creados con Mermaid.js y renderizados directamente en Markdown, que desglosan los pilares esenciales de la informática.
+Este **Handbook for Software Development** es una guía visual concisa y práctica. Este repositorio ofrece una colección de diagramas creados con Mermaid.js y renderizados directamente en Markdown, que desglosan los pilares esenciales para el desarrollo de software.
 
 ## Propósito
 
