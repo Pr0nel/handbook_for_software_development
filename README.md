@@ -66,7 +66,7 @@ Estructuras_de_Datos -->|Optimizan y Habilitan| Algoritmos
 ]
 ```
 
-```mermaid[
+[
 graph TD
 %% Diagrama enfocado en la relación entre Persistencia de Datos, Arquitectura de Computadoras y Sistemas Operativos
 
@@ -111,6 +111,8 @@ graph TD
 ## Licencia
 
 Este contenido (incluyendo los diagramas) está bajo la licencia [Creative Commons Atribución-NoComercial 4.0 Internacional](https://creativecommons.org/licenses/by-nc/4.0/).
+
+```
 
 ```
 
