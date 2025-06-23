@@ -65,7 +65,7 @@ Estructuras_de_Datos -->|Modeladas según un| Paradigmas_de_Programación
 Estructuras_de_Datos -->|Optimizan y Habilitan| Algoritmos
 ```
 
-[
+``m̀ermaid
 graph TD
 %% Diagrama enfocado en la relación entre Persistencia de Datos, Arquitectura de Computadoras y Sistemas Operativos
 
@@ -100,8 +100,6 @@ graph TD
 
     Arquitectura_de_Computadoras -->|Almacena Datos de| Persistencia_de_Datos
     Arquitectura_de_Computadoras -->|Es Controlada por| Sistemas_Operativos
-
-]
 
 ```
 
